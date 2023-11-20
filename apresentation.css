@@ -1,0 +1,33 @@
+/* .section-initial {
+    background-color: rgba(0, 0, 0, 0.749);
+} */
+
+.presentation {
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 50px 0px;
+    line-height: 24px;
+    
+}
+
+
+.button-presentation {
+    width: 120px;
+    height: 40px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    margin-top: 20px;
+}
+
+.button-presentation:hover {
+    background-color: var(--color-houver);
+}
+
+.text {
+    background-color: blue;
+
+}
