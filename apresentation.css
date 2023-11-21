@@ -16,7 +16,7 @@
 
 
 .button-presentation {
-    width: 120px;
+    width: 150px;
     height: 40px;
     background-color: var(--color-blue);
     color: var(--color-white);
@@ -28,6 +28,5 @@
 }
 
 .text {
-    background-color: blue;
-
+    background-color: (--white);
 }

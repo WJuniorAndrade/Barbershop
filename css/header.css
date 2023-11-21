@@ -156,3 +156,24 @@ a:hover {
     top: -7px;
   }
 }
+
+
+:root{
+
+}
+
+[data-theme="dark"]{
+  --white: #000;
+  --black: #fff;
+}
+
+
+svg{
+  width: 45px;
+  height: 24px;
+
+}
+
+#btn-dark-mode-toggle {
+  margin-left: 12px;
+}

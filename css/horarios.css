@@ -1,0 +1,89 @@
+.mobile-horarios {
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg {
+    text-align: center;
+}
+
+.img-horarios {
+    width: 100%;
+    padding: 20px;
+}
+
+.horario-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.horarios {
+    display: none;
+}
+
+
+@media screen and  (min-width: 769px) {
+    .mobile-horarios {
+        display: none;
+    }
+
+    .desc {
+        display: grid;
+        gap: 8rem 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .horarios {
+        max-width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 50px 0px;
+    }
+    
+    .pg {
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .horario-descr {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px; 
+        padding-bottom: 0px;
+
+    }
+     
+    .img-horarios {
+        width: 100%;
+        padding: 0px;
+    }  
+}
+
+
+
+/* TABLET */
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    /* .horarios {
+        display: none;
+    } */
+    .img-horarios {
+        width: 80%;
+
+    
+    }
+    
+
+}

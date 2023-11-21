@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="apresentation.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/horarios.css">
 
     <script src="js/header.js" defer ></script>
     <script src="js/footer.js" defer ></script>
@@ -30,13 +31,16 @@
                 <span id="hamburger"></span>
               </button>
 
-
+              
               <ul id="menu" role="menu">
+
                 <li><a href="#link-footer">Sobre</a></li>
                 <li><a href="#trabalhos-link">Serviços</a></li>
-                <li><a href="/">Horários</a></li>
-                <li><a href="/">Contato</a></li>
+                <li><a href="#horario">Horários</a></li>
+                <li><a href="#link-footer">Mídias</a></li>
+                <button id="btn-dark-mode-toggle"></button>
               </ul>
+              
 
             </nav>
         </div>
@@ -48,8 +52,7 @@
                 <h1 class="title-initial">Muito mais<br> que uma <br> barbearia</h1>
     
                 <button class="button-style" 
-                routerLink="/formComponent"
-                value="agendar">Nossos Serviços</button>
+                value="agendar"> <a href="#trabalhos-link">Nossos Serviços</a></button>
         
             </div>
             
@@ -72,7 +75,7 @@
                 </p>
     
                 <button class="button-presentation" id="sobree"   
-                value="sobre">Saiba mais </button>
+                value="sobre"><a href="#horario">Nossos Horários</a></button>
                 
                 
             </div>
@@ -158,11 +161,47 @@
 
         </section>
 
-      <!--   <section class="section-trabalhos">
-            <h2 class="title-page">Horário de Funcionamento</h2>
+        <section class="horarios" id="horario">
+            
+
+            <div class="desc">
+                
+                <img class="img-horarios" src="assets/img/horarios.jpg" alt="">
+
+                <div class="horario-descr">
+                    <h2 class="title-page pg">Horário de Funcionamento</h2>
+
+                    <p>Nós sabemos como é a correria do dia a dia, que tem dia que é necessário fazer hora extra ou há muitas tarefas para entregar. Então como cortar o cabelo ou fazer a barba, se a maioria das barbearias tem o horário de funcionamento reduzido ou comercial?</p>
+                    <p>É por isso que nós fazemos um expediente diferenciado para sempre te atender quando for preciso.</p>
+                
+                    <p>Nosso horário de funcionamento é das 9:00 às 22:00, de segunda a sábado, e das 9:00 às 18:00 aos domingos. Dessa forma, não tem como não ficar sempre alinhado e estiloso.</p>
+                </div>
+            </div>
         </section>
 
- -->
+
+
+        <section class="mobile-horarios" id="horario">
+            
+            <div class="desc">
+
+                <h2 class="title-page pg">Horário de Funcionamento</h2>
+                
+                <img class="img-horarios" src="assets/img/horarios.jpg" alt="">
+
+                
+
+                <div class="horario-descr">
+                    
+                    <p>Nós sabemos como é a correria do dia a dia, que tem dia que é necessário fazer hora extra ou há muitas tarefas para entregar. Então como cortar o cabelo ou fazer a barba, se a maioria das barbearias tem o horário de funcionamento reduzido ou comercial?</p>
+                    <p>É por isso que nós fazemos um expediente diferenciado para sempre te atender quando for preciso.</p>
+                
+                    <p>Nosso horário de funcionamento é das 9:00 às 22:00, de segunda a sábado, e das 9:00 às 18:00 aos domingos. Dessa forma, não tem como não ficar sempre alinhado e estiloso.</p>
+                </div>
+            </div>
+        </section>
+
+
 
 
         <footer id="link-footer">
@@ -172,14 +211,13 @@
                 <div class="info-nav">
                     <h2 class="title-footer">Inicio</h2>
                     <a href="#home">Home</a>
-                    <a href="#link-calculate">Calculate</a>
-                    <a href="#link-table">Table</a>
+                    <a href="#link-calculate">Serviços</a>
+                    <a href="#horario">Horários</a>
                 </div>
 
                 <div class="info-nav">
                     <h2 class="title-footer">Sobre</h2>
                     <a href="#info-barbershop">Barbershop</a>
-                    <a href="#">Contato</a>
                     <a href="https://www.instagram.com/barbearia_ramos_afc_grama/">Instagram</a>
 
                     <a href="https://www.instagram.com/barbearia_ramos_afc_grama/">Facebook</a>
